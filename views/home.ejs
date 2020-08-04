@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Site</title>
+    <link rel='stylesheet' href='/stylesheets/style_home.scss' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="title">
+    <h1 class="main">Fashionista</h1>
+    <div>
+        <div class="subdiv">
+        <p>Welcome "<%= nameofuser %>"!!!!!</p>
+        </div>
+        <div class="subdiv"><a href="/cart">My Cart</a></div>
+        <div class="subdiv"></div>
+    </div>
+</div>
+<form action="/shopping-samsung" method="post">
+    <div>
+        <div>
+            <img src="/samsung.png">
+        </div>
+        <div>
+        <h3>Samsung Galaxy Note 8</h3>
+        <p>Samsung Galaxy Note 8 features a 6.3-inch Quad HD+ Super AMOLED 'Infinity' display and is powered by octa-core Qualcomm Snapdragon 835 processor. The phablet comes with 6GB RAM and 64GB of internal storage. It also has support for microSD card. Galaxy Note 8 runs Android 7.1</p>
+        <h3>Price: $800</h3>
+        </div>
+        <div>
+            <button name="ADDTOCART" id="samsung">+ ADD</button>
+        </div>
+    </div>
+</form>
+<form action="/shopping-oneplus" method="post">
+    <div>
+        <div>
+            <img src="/oneplus.png">
+        </div>
+        <div>
+            <h3>OnePlus 6T</h3>
+            <p>OnePlus 6T launched on 31st October 2018, comes with a 6.41 inch display & a resolution of 1080 x 2340 pixels. The Smartphone is powered by 2.8 GHz Octa core Qualcomm SDM845 Snapdragon 845 (10 nm) processor and runs on 6 GB of RAM.</p>
+            <h3>Price: $600</h3>
+        </div>
+        <div>
+            <button name="ADDTOCART" id="oneplus">+ ADD</button>
+        </div>
+    </div>
+</form>
+<form action="/shopping-oppo" method="post">
+    <div>
+        <div>
+            <img src="/oppo.png">
+        </div>
+        <div>
+            <h3>Oppo Find X2</h3>
+            <p>The Oppo Find X2 is a flagship smartphone, powered by the Snapdragon 865 processor with 12GB RAM and 256GB onboard storage. The Oppo Find X2 supports 5G, making it future proof. The smartphone also packs a 4,200 mAh battery with 65W fast charging support, making it one of the best Oppo smartphones in the market.</p>
+            <h3>Price: $500</h3>
+        </div>
+        <div>
+            <button name="ADDTOCART" id="oppo">+ ADD</button>
+        </div>
+    </div>
+</form>
+<form action="/shopping-apple" method="post">
+    <div>
+        <div>
+            <img src="/apple.png">
+        </div>
+        <div>
+            <h3>iPhone 11</h3>
+            <p>Weight: 194g | Dimensions: 150.9 x 75.7 x 8.3mm | OS: iOS 13 | Screen size: 6.1-inch | Resolution: 828 x 1792 | CPU: A13 Bionic | RAM: 4GB | Storage: 64/128/256GB | Battery: Unknown | Rear camera: 12MP+12MP | Front camera: 12MP</p>
+            <h3>Price: $1000</h3>
+        </div>
+        <div>
+            <button name="ADDTOCART"  id="apple">+ ADD</button>
+        </div>
+    </div>
+</form>
+<form action="/shopping-vivo" method="post">
+    <div>
+        <div>
+            <img src="/vivo.png">
+        </div>
+        <div>
+            <h3>Vivo X50 Pro</h3>
+            <p>Vivo X50 Pro bestows a 6.56-inch FHD+ E3 AMOLED display with an aspect ratio of 19.8:9, an octa-core Snapdragon 765G SoC along with 8GB RAM and 128GB/256GB storage space. Running Android 10 topped with Funtouch OS 10.5, the Vivo X50 Pro with a quad-camera setup comprising a 48MP primary sensor, a 32MP selfie camera sensor, an in-display fingerprint sensor, and a 4315mAh battery.</p>
+            <h3>Price: $500</h3>
+        </div>
+        <div>
+            <button name="ADDTOCART" id="vivo">+ ADD</button>
+        </div>
+    </div>
+</form>
+<form action="/shopping-redmi" method="post">
+    <div>
+        <div>
+            <img src="/redmi.png">
+        </div>
+        <div>
+            <h3>Redmi Note 6 Pro</h3>
+            <p>The Redmi Note 6 Pro is a joy to use as it has a 6.26-inch FHD+ display and a well-rounded ergonomic design. It features the Snapdragon 636 processor and 6GB RAM as well as 64 GB ROM for smooth and lag-free performance.</p>
+            <h3>Price: $400</h3>
+        </div>
+        <div>
+            <button name="ADDTOCART" id="redmi">+ ADD</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>

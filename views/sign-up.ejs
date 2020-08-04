@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<link rel='stylesheet' href='/stylesheets/style_forgot.scss' />
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<form action="/sign-up-complete" method="post">
+    <div class="container">
+        <h1>Register</h1>
+        <p>Please fill in this form to create your account.</p>
+        <hr>
+
+        <label><b>Name</b></label>
+        <input type="text" placeholder="Enter your Name" name="email" id="name" required>
+
+        <label for="email"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="email" id="username" required>
+
+        <label for="psw"><b>New Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="pswrepeat" id="pswrepeat" required>
+
+        <label><b>Mobile Number</b></label>
+        <input type="text" placeholder="Enter your Mobile Number" name="pswrepeat" id="mobile" required>
+        <hr>
+
+        <button type="submit" class="registerbtn">Register</button>
+    </div>
+
+    <div class="container signin">
+        <p>Already have an account? <a href="/">Log in</a>.</p>
+    </div>
+</form>
+
+</body>
+</html>

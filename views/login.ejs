@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1><div style="text-align: center;">Login Page</div></h1>
+<form action="/check" method="post">
+    <div style="text-align: center;">
+        <div><label>Username:</label><br>
+            <input type="text" name="username" id="username" placeholder="Enter Username">
+        </div>
+        <div><label>Password:</label><br>
+            <input type="password" name="password" id="password" placeholder="Enter Username">
+        </div>
+        <div style="text-align: center;">
+            <input type="submit" name="submit">
+        </div>
+        <small>
+        <a href="/forgot">Forgot Password?</a>
+        <a href="/sign-up">Signup</a>
+        </small>
+    </div>
+</form>
+
+</body>
+</html>
